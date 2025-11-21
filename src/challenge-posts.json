@@ -1,0 +1,37 @@
+[
+  {
+    "postid": 1,
+    "cardId": 2,
+    "username": "Alice",
+    "picture": "https://via.placeholder.com/150",
+    "content": "Wow! This was so much fun!"
+  },
+  {
+    "postid": 2,
+    "cardId": 1,
+    "username": "Bob",
+    "picture": "https://via.placeholder.com/150",
+    "content": "I think this came out really well"
+  },
+  {
+    "postid": 3,
+    "cardId": 2,
+    "username": "Charlie",
+    "picture": "https://via.placeholder.com/150",
+    "content": "This was really interesting"
+  },
+  {
+    "postid": 4,
+    "cardId": 1,
+    "username": "Diana",
+    "picture": "https://via.placeholder.com/150",
+    "content": "I love watercolour so this challenge was so much fun!"
+  },
+  {
+    "postid": 5,
+    "cardId": 3,
+    "username": "Eve",
+    "picture": "https://via.placeholder.com/150",
+    "content": "One more post for card 101."
+  }
+]

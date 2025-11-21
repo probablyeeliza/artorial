@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category" : "Painting",
+    "title" : "Learn to Paint with Acrylics!",
+    "desc": "You want to learn how to paint with Acrylics? Well, by the end of this tutorial, we hope you'll be able to confidently pick up a brush and paint an acrylic painting!",
+    "tips": [
+      "There are 2 main methods to painting Acrylic. One which involves mixing colours directly on your palette and then applying to your canvas. The other is painting a monochromatic underpainting and, by mixing the paint with water, applying a glaze like layer of paint to build up colours.",
+      "Acrylic paint dries very quickly so prepare to work fast",
+      "Due to the fast drying nature of acrylics, layering is one of it's biggest features.",
+      "The last piece of advice I can offer is to have fun with it! Just experiment and you'll find a way that works for you!"
+    ]
+  },
+  {
+    "id": 2,
+    "category" : "Sketching",
+    "title" : "How to sketch the perfect form!",
+    "desc": "Sketching can be hard, for both beginner and expert artists! In this tutorial we will offer some tips to help you.",
+    "tips": [
+      "Try breaking complex forms into basic shapes. Once you get into the mindset of understanding forms as a collection of shapes ontop of eachother, it can really help with setting up the compositions and poses.",
+      "Learning perspective is very important for understanding how those shapes change as they get closer or farther away from the viewer",
+      "Try to keep your sketches simple. Don't add colour yet, try not to make the lines too messy and pick poses that are easier to start off with.",
+      "Practice! Practice doesn't quite make perfect but it can get you very close. Practice will get you more familiar with techniques and understanding the forms you are creating."
+    ]
+  },
+  {
+    "id": 3,
+    "category" : "Digital",
+    "title" : "How to download digital brushes",
+    "desc": "Downloading brushes off the internet is confusing at first so let me help you figure it out! (This tutorial is for Procreate)",
+    "tips": [
+      "First, find a brush you like! Brushes with different textures or line weight can be really fun to play around wtih!",
+      "Follow the link to download the brush. Sometimes people will ask you to pay a small amount for a download link for the brush. If you want to pay for it go ahead, otherwise there are plenty of free brushes out there!",
+      "Next you want to download the brush into your files and then go open it. Once you open it, it should automatically download into your procreate!",
+      "Enjoy experimenting with your new brush!"
+    ]
+  }
+]

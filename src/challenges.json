@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Doodle Wash!",
+    "desc": "Create a watercolour piece for each day of the month! "
+  },
+  {
+    "id": 2,
+    "title": "Create a piece based on your name!",
+    "desc": "Using the first and last letter of your name, create a piece using the object and style you get!"
+  },
+  {
+    "id": 3,
+    "title": "Creatuanary",
+    "desc": "During this month create a fun new creature using your birhtday!"
+  },
+  {
+    "id": 4,
+    "title": "Styluary",
+    "desc": "During the month of February, choose a famous artist's style and be inspired by it!"
+  }
+]

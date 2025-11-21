@@ -1,0 +1,9 @@
+.Search-Bar{
+    display: flex;
+    padding: 0.75rem 1rem;
+    border-radius: 12px; /* rounds the edges */
+    border-color: black; /* colour */
+    border-style: solid;
+    background-color: rgb(255, 255, 255); /* colour */     
+    margin: 0 auto;              
+}

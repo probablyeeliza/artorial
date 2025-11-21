@@ -1,0 +1,12 @@
+.challenges-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px; /* space so content isn't hidden by navbar */
+  
+}
+
+.challenges-list {
+  width: 90%;
+  margin-top: 1rem;
+}

@@ -1,0 +1,24 @@
+.post-card{
+    border: 2px solid #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;       /* stack title, desc, and button vertically */
+    text-align: left;
+    padding: 1rem 1rem; /* bigger space within the cards*/
+    margin: 1rem 0; /* puts a gap between cards*/
+    max-width: 350px; /* Max width on larger screens */
+    min-height: 150px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.post-card h4 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.post-card p {
+  margin: 0.5rem 0 0 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}

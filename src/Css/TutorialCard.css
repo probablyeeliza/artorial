@@ -1,0 +1,25 @@
+.tutorial-card{
+    display: flex;
+    border-radius: 15px; /* rounds the edges */
+    border: 2px solid #000000;
+    background-color: rgb(255, 255, 255); /* colour */
+    justify-content: space-between; /*makes the catefory and title have a gap between*/
+    padding: 0.5rem 0.5rem; /* bigger space within the cards*/
+    margin: 1rem 0; /* puts a gap between cards*/
+    align-items: center;
+}
+.tutorial-category{
+    text-align: left;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.tutorial-title{
+    text-align: right;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.tutorial-arrow {
+    opacity: 0.6;
+}

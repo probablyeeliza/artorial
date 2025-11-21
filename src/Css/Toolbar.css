@@ -1,0 +1,21 @@
+.toolbar{
+    position: fixed; /* Fixes it's postion on the screen so it's always visible even when scrolling*/
+    bottom: 0; /* puts it at the bottom of the screen*/
+    display: flex; 
+    justify-content: center;
+    left: 50%;  /* moves the toolbar's left to the center*/ 
+    transform: translateX(-50%); /* fixes the above so that it is properly centered*/
+    gap: 1rem; /* put space between the links*/
+    padding: 1rem 2rem;
+    border-radius: 12px; /* rounds the edges */
+    border-color: black; /* colour */
+    border-style: solid;
+    background-color: rgb(255, 255, 255); /* colour */
+    width: 375px;
+    max-width: 375px;   
+}
+
+.toolbar-icon{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,31 @@
+.challenge-card{
+  border: 2px solid #000000;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;       /* stack title, desc, and button vertically */
+  align-items: center;          /* centers them horizontally */
+  justify-content: center;      /* centers them vertically */
+  text-align: center;
+  margin: 1rem 0;
+  background-color: #ffffff;
+  
+}
+.challenge-title {
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: black;
+}
+
+.challenge-desc {
+  border-radius: 10px;
+  min-height: 80px;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  display: flex;
+}
