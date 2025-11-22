@@ -18,7 +18,7 @@
 .Mobile-Screen{
   width: 375px; /* Standard mobile width */
   min-height: 700px; /* Gives a tall layout */
-  background-color: #B4C6CF;
+  background-color: #557381;
   border-radius: 20px; /* Rounded edges */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow around it */
   padding: 1rem; /* Inner spacing */
