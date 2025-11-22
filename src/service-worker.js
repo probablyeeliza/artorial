@@ -1,21 +1,26 @@
 /* eslint-disable no-restricted-globals */
 
-self.addEventListener("install", () => {
-  console.log("Service Worker: Installed");
-});
+// This file is built automatically by Workbox from Create React App.
+// Do not rename or remove __WB_MANIFEST — Workbox injects precache files here.
 
-self.addEventListener("activate", () => {
-  console.log("Service Worker: Activated");
-});
+import { clientsClaim } from 'workbox-core';
+import { precacheAndRoute } from 'workbox-precaching';
 
+clientsClaim();
+
+// Precache files injected by Workbox
+precacheAndRoute(self.__WB_MANIFEST);
+
+// Runtime caching example (fetch cache)
 self.addEventListener("fetch", (event) => {
-  // Basic caching example
   event.respondWith(
-    caches.open("v1").then((cache) =>
-      fetch(event.request).then((response) => {
-        cache.put(event.request, response.clone());
-        return response;
-      })
+    caches.open("runtime-cache").then((cache) =>
+      fetch(event.request)
+        .then((response) => {
+          cache.put(event.request, response.clone());
+          return response;
+        })
+        .catch(() => cache.match(event.request))
     )
   );
 });
