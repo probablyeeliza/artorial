@@ -13,7 +13,7 @@
     "react-router-dom": "^7.9.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://probablyeeliza.github.io/artorial"
+    "homepage": "https://probablyeeliza.github.io/artorial/"
   },
   "scripts": {
     "start": "react-scripts start",
