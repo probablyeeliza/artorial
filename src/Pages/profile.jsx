@@ -5,6 +5,7 @@ export function Profile() {
          <div className="App">
             <div className="Mobile-Screen">
                 <header className="App-Header">Profile!</header>
+                
             </div>
          </div>
     )
