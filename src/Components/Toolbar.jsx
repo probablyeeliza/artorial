@@ -12,11 +12,7 @@ export function ToolBar(){
      const [selected, setSelected] = useState(null); // initially nothing selected
 
   const handleClick = (name) => {
-    if (selected === name) {
-      setSelected(null); // deselect if clicked again
-    } else {
       setSelected(name); // select
-    }
   };
     return(
         <nav className="toolbar">

@@ -28,7 +28,6 @@
   align-items: center; /* Center elements horizontally */
   gap: 1rem; /* Space between items */
   overflow-y: auto; /* Will give it a scroll bar is needed*/
-  margin-top: 1rem;
   font-size: var(--body-size);
   color: black;
 }
