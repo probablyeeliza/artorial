@@ -9,13 +9,14 @@ export function Accessibility() {
     return(
          <div className="App">
             <div className="Mobile-Screen">
+                <nav>
                 <Link to="/settings">
                         <button className="back-btn">Back</button>
                     </Link>
-                
+                </nav>
                 <header className="App-Header">Accessibility!</header>
                 <div className="content">
-                    <h1>Font Size</h1>
+                    <h2>Font Size</h2>
                     <FontControl/>
                 </div>
             </div>
