@@ -5,8 +5,7 @@ import '../Css/Toolbar.css'
 export function ToolBar(){
     return(
         <nav className="toolbar">
-            <Link to="/"> Home </Link>
-            <Link to="/profile"> Profile</Link>
+            <Link to="/"> Profile </Link>
             <Link to="/challenge"> Challenge</Link>
             <Link to="/community"> Community</Link>
             <Link to="/tutorial"> Tutorial</Link>

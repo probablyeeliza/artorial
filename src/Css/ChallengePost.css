@@ -10,6 +10,7 @@
     min-height: 150px;
     width: 90%;
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 .post-card h4 {
