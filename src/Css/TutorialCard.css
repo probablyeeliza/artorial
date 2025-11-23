@@ -7,6 +7,7 @@
     padding: 0.5rem 0.5rem; /* bigger space within the cards*/
     margin: 1rem 0; /* puts a gap between cards*/
     align-items: center;
+    box-shadow:0 10px 5px rgba(0, 0, 0, 0.15);
 }
 .tutorial-category{
     text-align: left;
@@ -21,5 +22,7 @@
 }
 
 .tutorial-arrow {
-    opacity: 0.6;
+    opacity: 1;
+    font-size: xx-large;
+    padding-left: 0.5rem;
 }

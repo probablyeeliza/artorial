@@ -27,7 +27,10 @@ export function Tutorial() {
                     </div>
                     <SearchBar search={search} setSearch={setSearch} />
                     <div className="tutorial-list">
-                    {filteredData.map((tutorial) => (
+                     {filteredData.length === 0 ? (
+                        <h2>No tutorials found</h2>
+                        ) : (
+                    filteredData.map((tutorial) => (
                         <TutorialCard
                             key={tutorial.id}
                             id={tutorial.id}
@@ -35,7 +38,7 @@ export function Tutorial() {
                             title={tutorial.title}
                             tips={tutorial.tips}
                         />
-                    ))}
+                    )))}
                     </div>
             </div>
             </div>

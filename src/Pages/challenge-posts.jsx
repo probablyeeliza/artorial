@@ -14,13 +14,14 @@ export function ChallengePosts() {
                 <Link to="/challenge">
                     <button className="back-btn">Back</button>
                 </Link>
+                <div className="post-content">
                 <h2>Posts for Challenge {id} </h2>
                 {filteredPosts.length === 0 ? (
                     <p>No posts yet for this challenge.</p>
                 ) : (
                     filteredPosts.map(post => (
                         <div key={post.postId} className="post-card">
-                            <h4>{post.username}</h4>
+                            <h3>{post.username}</h3>
                             <img
                                 src={post.picture}
                                 alt={post.username}
@@ -30,6 +31,7 @@ export function ChallengePosts() {
                         </div>
                     ))
                 )}
+                </div>
             </div>
         </div>
     )

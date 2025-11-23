@@ -10,3 +10,10 @@
   margin: 1rem;
   padding-top: 5px; /* so the top isn't behind the searchbar*/
 }
+
+.tutorial-list h2 {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 15px; /* rounds the edges */
+  border: 1px solid #000000;
+}

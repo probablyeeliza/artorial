@@ -13,13 +13,21 @@
     background-color: #ffffff;
 }
 
-.post-card h4 {
+.post-card h3 {
   margin: 0;
-  font-size: 1.5rem;
 }
 
 .post-card p {
   margin: 0.5rem 0 0 0;
-  font-size: 1rem;
   line-height: 1.2;
+}
+
+.post-content {
+  flex-direction: column;
+  text-align: center;
+}
+
+.post-content h2{
+  color:white;
+  text-decoration: underline;
 }
