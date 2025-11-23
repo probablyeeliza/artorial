@@ -1,12 +1,14 @@
 import '../App.css';
 import { useParams, Link } from "react-router-dom";
 import postData from "../challenge-posts.json";
+import challengeData from "../challenges.json";
 import "../Css/ChallengePost.css"
 
 export function ChallengePosts() {
     const { id } = useParams(); // Must match route param
 
     const filteredPosts = postData.filter(post => post.cardId === Number(id));
+    const challenge = challengeData.find(c => c.id === Number(id));
 
     return(
         <div className="App">
@@ -15,7 +17,7 @@ export function ChallengePosts() {
                     <button className="back-btn">Back</button>
                 </Link>
                 <div className="post-content">
-                <h2>Posts for Challenge {id} </h2>
+                <h2>Posts for "{challenge ? challenge.title : `Challenge ${id}`}"</h2>
                 {filteredPosts.length === 0 ? (
                     <p>No posts yet for this challenge.</p>
                 ) : (
