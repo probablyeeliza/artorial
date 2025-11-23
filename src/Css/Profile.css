@@ -1,0 +1,19 @@
+.profile-banner{
+    display: flex;
+    border-radius: 15px; /* rounds the edges */
+    border: 2px solid #000000;
+    background-color: rgb(255, 255, 255); /* colour */
+    padding: 0.5rem 0.5rem; /* bigger space within the cards*/
+    width: 90%;
+    max-width: 375px;
+    justify-content: center;
+}
+
+.profile-posts{
+    background-color: #263028;
+    width: 100%;
+    max-width: 375px;
+    height: 90%;
+    border: 2px solid #000000;
+    border-radius: 15px; /* rounds the edges */
+}

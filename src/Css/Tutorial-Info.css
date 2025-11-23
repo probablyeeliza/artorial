@@ -7,6 +7,10 @@
     margin-bottom: 10px;
     justify-content: space-between;
     position: relative;
+}
+
+.tutorial-header h2{
+    color:rgb(255, 255, 255);
     text-decoration: underline;
 }
 

@@ -20,7 +20,6 @@
   max-width: 375px;
   min-height: 100vh;   /* full screen height */
   background-color: #5a7c5d;
-  border-radius: 20px; /* Rounded edges */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow around it */
   padding: 1rem; /* Inner spacing */
   display: flex;

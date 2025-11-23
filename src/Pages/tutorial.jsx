@@ -24,8 +24,8 @@ export function Tutorial() {
                 <div className="tutorial-page">
                     <div>
                         <header className="App-Header">Tutorials!</header>
-                        <SearchBar search={search} setSearch={setSearch} />
                     </div>
+                    <SearchBar search={search} setSearch={setSearch} />
                     <div className="tutorial-list">
                     {filteredData.map((tutorial) => (
                         <TutorialCard
