@@ -7,7 +7,7 @@ export function Profile() {
             <div className="Mobile-Screen">
                 <header className="App-Header">Profile!</header>
                 <div className="profile-banner">Username</div>
-                <div className="profile-posts"></div>
+                <div className="profile-posts">User Posts</div>
             </div>
          </div>
     )

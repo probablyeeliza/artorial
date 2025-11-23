@@ -16,4 +16,6 @@
     height: 90%;
     border: 2px solid #000000;
     border-radius: 15px; /* rounds the edges */
+    text-align: center;
+    color: white;
 }
