@@ -6,15 +6,24 @@ export function LightDarkModeToggle() {
     // If the user has a preferred theme, load it
     useEffect(() => {
     const savedMode = localStorage.getItem("darkMode");
-    if (savedMode === "true") setDarkMode(true);
+    if (savedMode === "true") 
+        {   
+            setDarkMode(true);
+            document.documentElement.setAttribute("data-theme", savedMode);
+        } else {
+            setDarkMode(false);
+            document.documentElement.setAttribute("data-theme", "light");
+        }
   }, []);
 
     //Apply the theme and save preference
     useEffect(() => {
         if (darkMode) {
-        document.body.classList.add("dark-mode");
+            document.body.classList.add("dark-mode");
+            document.documentElement.setAttribute("data-theme", "dark");
         } else {
-        document.body.classList.remove("dark-mode");
+            document.body.classList.remove("light-mode");
+            document.documentElement.setAttribute("data-theme", "light");
         }
         localStorage.setItem("darkMode", darkMode);
     }, [darkMode]);
