@@ -52,25 +52,25 @@
 
 /* Light mode */
 :root {
-  --bg-color: #5a7c5d;
+  --bg-color: #6F9773;
   --text-color: #1A1A1A;
   --header-bg: #f5f5f5;
   --button-bg: #1A1A1A;
   --button-text: #ffffff;
   --border-color: #1A1A1A;
-  --profile-posts-color: #424242;
+  --profile-posts-color: #3A3A3A;
   --profile-posts-text-color: #ffffff;
 }
 
 /* Dark mode */
 .dark-mode {
-  --bg-color: #123f1a;
+  --bg-color: #0E1F14;
   --text-color: #f5f5f5;
-  --header-bg: #161616;
+  --header-bg: #1E1E1E;
   --button-bg: #ffffff;
   --button-text: #1a1a1a;
   --border-color: white;
-  --profile-posts-color: #5f6e64;
+  --profile-posts-color: #1a1a1a;
   --profile-posts-text-color: #fdfdfd;
 }
 
