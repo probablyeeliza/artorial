@@ -12,8 +12,9 @@
 }
 
 .tutorial-list h2 {
-  background-color: white;
+  background-color: var(--header-bg);
   padding: 1rem 2rem;
   border-radius: 15px; /* rounds the edges */
-  border: 1px solid #000000;
+  border: 1px solid var(--border-color); /* colour */
+  color: var(--text-color);
 }

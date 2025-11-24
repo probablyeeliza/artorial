@@ -8,9 +8,9 @@
 .App-Header{
   padding: 1rem 2rem;
   border-radius: 12px; /* rounds the edges */
-  border-color: black; /* colour */
+  border-color: var(--border-color); /* colour */
   border-style: solid;
-  background-color: rgb(255, 255, 255); /* colour */
+  background-color: var(--header-bg); /* colour */
   font-size: var(--title-size);
   margin-bottom: 1rem;
 }
@@ -19,8 +19,7 @@
   width: 100%;         /* or fixed width if mobile only */
   max-width: 375px;
   min-height: 100vh;   /* full screen height */
-  background-color: #5a7c5d;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow around it */
+  background-color: var(--bg-color);
   padding: 1rem; /* Inner spacing */
   display: flex;
   flex-direction: column; /* Stack items vertically */
@@ -28,27 +27,50 @@
   gap: 1rem; /* Space between items */
   overflow-y: auto; /* Will give it a scroll bar is needed*/
   font-size: var(--body-size);
-  color: black;
+  color: var(--text-color);
 }
 
 .back-btn{
-  background-color: #1A1A1A;
+  background-color: var(--button-bg);
   border: none;
   border-radius: 20px;
   padding: 1rem 2rem;
   cursor: pointer;
-  color: #f5f5f5;
+  color: var(--button-text);
 }
 
 .button{
-  background-color: #1A1A1A;
+  background-color: var( --button-bg);
   border: none;
   border-radius: 20px;
   padding: 0.5rem 1rem;
   cursor: pointer;
   font-size: 1rem;
-  color: #ffffff;
+  color: var(--button-text);
   margin-bottom: 0.5rem;
 }
 
+/* Light mode */
+:root {
+  --bg-color: #5a7c5d;
+  --text-color: #1A1A1A;
+  --header-bg: #f5f5f5;
+  --button-bg: #1A1A1A;
+  --button-text: #ffffff;
+  --border-color: #1A1A1A;
+  --profile-posts-color: #424242;
+  --profile-posts-text-color: #ffffff;
+}
+
+/* Dark mode */
+.dark-mode {
+  --bg-color: #123f1a;
+  --text-color: #f5f5f5;
+  --header-bg: #161616;
+  --button-bg: #ffffff;
+  --button-text: #1a1a1a;
+  --border-color: white;
+  --profile-posts-color: #5f6e64;
+  --profile-posts-text-color: #fdfdfd;
+}
 

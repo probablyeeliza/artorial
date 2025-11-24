@@ -1,5 +1,5 @@
 .post-card{
-    border: 2px solid #000000;
+    border: 2px solid var(--border-color);
     border-radius: 15px;
     display: flex;
     flex-direction: column;       /* stack title, desc, and button vertically */
@@ -10,7 +10,7 @@
     min-height: 150px;
     width: 90%;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: var(--header-bg);
 }
 
 .post-card h3 {
@@ -28,6 +28,5 @@
 }
 
 .post-content h2{
-  color:white;
   text-decoration: underline;
 }

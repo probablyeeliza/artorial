@@ -2,6 +2,7 @@ import "../App.css";
 import "../Css/Accessibility.css"
 import { Link } from "react-router-dom";
 import FontControl from "../Components/FontControl"
+import { LightDarkModeToggle } from "../Components/LightDarkModeToggle";
 
 
 
@@ -18,6 +19,10 @@ export function Accessibility() {
                 <div className="content">
                     <h2>Font Size</h2>
                     <FontControl/>
+                </div>
+                <div className="content">
+                    <h2>Theme</h2>
+                    <LightDarkModeToggle/>
                 </div>
             </div>
          </div>

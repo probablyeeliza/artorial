@@ -1,5 +1,5 @@
 .challenge-card{
-  border: 2px solid #000000;
+  border: 2px solid var(--border-color);
   border-radius: 15px;
   display: flex;
   flex-direction: column;       /* stack title, desc, and button vertically */
@@ -7,7 +7,7 @@
   justify-content: center;      /* centers them vertically */
   text-align: center;
   margin: 1rem 0;
-  background-color: #ffffff;
+  background-color: var(--header-bg);
   
 }
 .challenge-title {
@@ -16,7 +16,7 @@
   font-weight: bold;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  color: black;
+  color: var(--text-color);
 }
 
 .challenge-desc {
@@ -26,6 +26,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: var(--text-color);
   display: flex;
 }

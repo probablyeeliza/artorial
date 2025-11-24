@@ -10,17 +10,15 @@
 }
 
 .tutorial-header h2{
-    color:rgb(255, 255, 255);
+    color: var(--text-color);
     text-decoration: underline;
 }
 
 .tips-list{
-    border-color: black; /* colour */
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid var(--border-color); /* colour */
     border-radius: 15px;
     padding: 1rem 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--header-bg); /* colour */
 }
 
 .tutorial-content{
@@ -29,10 +27,8 @@
 }
 
 .tutorial-content p{
-    border-color: black; /* colour */
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid var(--border-color); /* colour */
     border-radius: 15px;
     padding: 0.5rem 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--header-bg);
 }

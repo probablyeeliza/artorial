@@ -1,8 +1,8 @@
 .settings-item{
     display: flex;
     border-radius: 15px; /* rounds the edges */
-    border: 2px solid #000000;
-    background-color: rgb(255, 255, 255); /* colour */
+    border: 2px solid var(--border-color);
+    background-color: var(--header-bg); /* colour */
     padding: 0.5rem 0.5rem; /* bigger space within the cards*/
     margin: 1rem 0; /* puts a gap between cards*/
     align-items: center;

@@ -6,12 +6,11 @@
   width: fit-content;
 }
 
-
 .font-controls{
   display: flex;
   flex-direction: row;
   gap: 16px; /* space between title group and body group */
-  background: #ffffff;
+  background: var(--header-bg);
   padding: 16px;
   border-radius: 12px;
   width: fit-content;
@@ -39,10 +38,21 @@
 
 .content{
   border-radius: 12px;
-  
 }
 
 .content h2{
-  color:#ffffff;
-  
+  color:var(--text-color);
+}
+
+.theme-container{
+  display: flex;
+  flex-direction: row;
+  gap: 16px; /* space between title group and body group */
+  background: var(--header-bg);
+  padding: 16px;
+  border-radius: 12px;
+  width: fit-content;
+  align-items: center; /* center everything horizontally */
+  font-weight: bold;
+  color:var(--text-color);
 }
