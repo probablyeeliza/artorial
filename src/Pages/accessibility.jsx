@@ -25,7 +25,7 @@ export function Accessibility() {
                     <h2>Theme</h2>
                     <LightDarkModeToggle/>
                 </div>
-                <div className="content">
+                <div className="content-bottom">
                     <h2>Icon Size</h2>
                     <IconSizeControl/>
                 </div>
