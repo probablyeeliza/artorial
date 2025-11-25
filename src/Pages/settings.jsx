@@ -8,20 +8,16 @@ export function Settings() {
          <div className="App">
             <div className="Mobile-Screen">
                 <header className="App-Header">Settings!</header>
-                <div className="settings-item">
-                    <h2>Help?</h2>
-                    <h1 className="dropbtn">→</h1>
-                </div>
                 <div className="settings-item" 
                 onClick={() => navigate(`/accessibility`)}
                 style={{ cursor: "pointer" }}> 
                     <h2>Accessibilty</h2>
                     
-                    <h1 className="dropbtn">→</h1>
+                    <h1>→</h1>
                 </div>
                 <div className="settings-item">
                     <h2>Terms of Service</h2>
-                    <h1 className="dropbtn">→</h1>
+                    <h1>→</h1>
                 </div>
             </div>
          </div>

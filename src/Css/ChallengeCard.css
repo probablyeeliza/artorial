@@ -5,7 +5,7 @@
   flex-direction: column;       /* stack title, desc, and button vertically */
   align-items: center;          /* centers them horizontally */
   justify-content: center;      /* centers them vertically */
-  text-align: center;
+  text-align: center;           /* centers text */
   margin: 1rem 0;
   background-color: var(--header-bg);
   

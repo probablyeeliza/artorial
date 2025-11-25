@@ -10,5 +10,23 @@
         "title": "How do I use Clip Studio Paint?",
         "category": "Other",
         "date": "2024-08-11"
+    },
+    {
+        "forum_id": 3,
+        "title": "How do I draw a person from this angle?",
+        "category": "Perspective",
+        "date": "2023-12-01"
+    },
+    {
+        "forum_id": 4,
+        "title": "Tips for beginner artists",
+        "category": "Advice",
+        "date": "2022-07-15"
+    },
+    {
+        "forum_id": 5,
+        "title": "The joys of colour theory!",
+        "category": "Colour",
+        "date": "2025-11-24"
     }
 ]

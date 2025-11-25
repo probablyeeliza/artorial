@@ -9,13 +9,3 @@
     justify-content: space-between;
     width: 90%;
     }
-
-.dropbtn{
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none; /* hidden by default */
-    
-}
-

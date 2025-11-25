@@ -2,7 +2,7 @@ import React from 'react';
 import "../Css/TutorialCard.css"
 import { useNavigate } from "react-router-dom";
 
-function TutorialCard({category, title, id}) {
+export function TutorialCard({category, title, id}) {
       const navigate = useNavigate();
     return(
         <div className="tutorial-card"

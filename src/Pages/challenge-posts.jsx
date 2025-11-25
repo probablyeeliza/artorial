@@ -5,7 +5,7 @@ import challengeData from "../challenges.json";
 import "../Css/ChallengePost.css"
 
 export function ChallengePosts() {
-    const { id } = useParams(); // Must match route param
+    const { id } = useParams();
 
     const filteredPosts = postData.filter(post => post.cardId === Number(id));
     const challenge = challengeData.find(c => c.id === Number(id));
@@ -24,6 +24,7 @@ export function ChallengePosts() {
                     filteredPosts.map(post => (
                         <div key={post.postId} className="post-card">
                             <h3>{post.username}</h3>
+                            {/* A placeholder image */}
                             <img
                                 src={post.picture}
                                 alt={post.username}

@@ -1,28 +1,26 @@
 .forum-card{
-    border: 2px solid var(--border-color);
-    border-radius: 15px;
     display: flex;
-    flex-direction: column;       /* stack title, desc, and button vertically */
-    align-items: start;          /* centers them horizontally */
-    background-color: var(--header-bg);
-    padding: 10px;
-    margin-top: 16px;
+    border-radius: 15px; /* rounds the edges */
+    border: 2px solid var(--border-color); /* colour */
+    background-color: var(--header-bg); /* colour */
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem; /* bigger space within the cards*/
+    margin: 1rem 0; /* puts a gap between cards*/
+    align-items: center;
+    box-shadow:0 10px 5px rgba(0, 0, 0, 0.15);
 }
 
 .forum-title{
-    border-radius: 10px;
     font-weight: bold;
-    text-decoration-thickness: 2px;
     color: var(--text-color);
 }
 
-.forum-desc{
-
+.forum-date{
+    color: var(--text-color);
 }
 
-
-.forum-date{
-
+.form-category{
+    color: var(--text-color);
 }
 
 
@@ -35,4 +33,21 @@
 .forum-list{
     width: 90%;
     margin-top: 1rem;
+    padding-bottom: 100px;
+}
+
+.forum-list h2{
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    display: flex;
+    background-color: var(--header-bg);
+    padding: 10px;
+    justify-content: center;
+}
+
+.forum-arrow {
+    opacity: 1;
+    font-size: xx-large;
+    padding-left: 5px;
+    justify-content: right;
 }

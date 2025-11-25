@@ -23,7 +23,7 @@
 
 .tutorial-content{
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 100px; /* content isn't hidden by navbar*/
 }
 
 .tutorial-content p{

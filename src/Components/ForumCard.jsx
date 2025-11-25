@@ -8,8 +8,9 @@ function ForumCard({title, category, forum_id, date}) {
                 <div className="forum-column">
                     <h3 className="forum-title">{title}</h3> 
                     <p className='forum-date'>{date}</p>
-                </div>  
+                </div>
             <div className="forum-category"> Category: {category}</div>
+            <div className="forum-arrow">→</div>
         </div>
     );
 

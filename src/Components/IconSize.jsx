@@ -16,8 +16,8 @@ export function IconSizeProvider({ children }) {
   }, [iconSize]);
 
   // Upper and lower icon limits
-  const ICON_MIN = 30;
-  const ICON_MAX = 50;
+  const ICON_MIN = 40;
+  const ICON_MAX = 60;
 
   // Functions to increase, decrease or reset
   const increaseIcon = () => setIconSize(prev => Math.min(ICON_MAX, prev + 4));

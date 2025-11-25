@@ -8,8 +8,7 @@ export function SearchBar( {search, setSearch} ){
             className="Search-Bar"
             placeholder="Search..."
             value={search}
-            onChange = {(e) => setSearch(e.target.value)}
-        />
+            onChange = {(e) => setSearch(e.target.value)}/>
     )
 }
 export default SearchBar;

@@ -2,7 +2,7 @@
     border: 2px solid var(--border-color);
     border-radius: 15px;
     display: flex;
-    flex-direction: column;       /* stack title, desc, and button vertically */
+    flex-direction: column; /* stack title, desc, and button vertically */
     text-align: left;
     padding: 1rem 1rem; /* bigger space within the cards*/
     margin: 1rem 0; /* puts a gap between cards*/
@@ -25,6 +25,7 @@
 .post-content {
   flex-direction: column;
   text-align: center;
+  padding-bottom: 100px; /*So the bottom is hidden behind navbar*/
 }
 
 .post-content h2{
@@ -32,7 +33,7 @@
 }
 
 .no-results{
-  border: 2px solid var(--border-color); /* colour */
+  border: 2px solid var(--border-color);
   border-radius: 15px;
   padding: 0.5rem 1rem;
   background-color: var(--header-bg);

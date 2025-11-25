@@ -4,7 +4,7 @@ import tutorialInfo from "../tutorials.json";
 import "../Css/Tutorial-Info.css"
 
 export function TutorialInfo() {
-    const { id } = useParams(); // Must match route param
+    const { id } = useParams();
 
     const tutorial = tutorialInfo.find(
         t => t.id === Number(id)

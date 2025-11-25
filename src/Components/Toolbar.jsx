@@ -8,7 +8,7 @@ import { TbWriting } from "react-icons/tb";
 import { IoMdSettings } from "react-icons/io";
 
 export function ToolBar(){
-    // Makes it so nothing in selected initially
+    // Makes it so nothing is selected initially
     const [selected, setSelected] = useState(null); 
 
     const handleClick = (name) => {

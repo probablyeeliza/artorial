@@ -17,7 +17,7 @@ export function Challenge() {
                         key={challenge.id}
                         title={challenge.title}
                         desc={challenge.desc}
-                        id={challenge.id} // pass the id so my button worksh
+                        id={challenge.id} // pass the id so my button works
                     />
                 ))}
                </div>

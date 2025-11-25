@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: center; /* center horizontally */
   gap: 16px; /* space between rows and reset button */
-  width: 100%; /* space so content isn't hidden by navbar */
+  width: 100%; 
 }
 
 .font-controls, .icon-controls{
   display: flex;
-  gap: 16px; /* space between title group and body group */
-  background: var(--header-bg);
+  gap: 16px; /* space */
+  background: var(--header-bg); 
   padding: 16px;
   border-radius: 12px;
   max-width: 375px;
@@ -24,8 +24,8 @@
 
 .font-controls-row, .icon-controls-row {
   display: flex;
-  gap: 40px; /* space between Title and Body sections */
-  justify-content: center; /* center horizontally */
+  gap: 40px; /* space */
+  justify-content: center; /* center items inside the row */
 }
 
 .button-row {
@@ -37,13 +37,9 @@
   margin-top: 5px; /* space above the reset button */
 }
 
-.content{
-  border-radius: 12px;
-}
-
 .content, .content-bottom h2{
   color:var(--text-color);
-  text-align: center;
+  text-align: center; /* centers the text on the page*/
 }
 
 .theme-container{
@@ -53,7 +49,7 @@
   padding: 16px;
   border-radius: 12px;
   width: fit-content;
-  align-items: center; /* center everything horizontally */
+  align-items: center;
   font-weight: bold;
   color:var(--text-color);
 }

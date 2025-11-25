@@ -5,26 +5,27 @@
 }
 
 .App-Header{
-  padding: 1rem 2rem;
+  padding: 2rem 3rem;
   border-radius: 12px; /* rounds the edges */
   border-color: var(--border-color); /* colour */
+  width: 80%;
   border-style: solid;
   background-color: var(--header-bg); /* colour */
   font-size: var(--title-size);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .Mobile-Screen{
-  width: 100%;         /* or fixed width if mobile only */
-  max-width: 375px;
+  width: 100%;
+  max-width: 375px; /*roughly mobile size*/
   min-height: 100vh;   /* full screen height */
   background-color: var(--bg-color);
-  padding: 1rem; /* Inner spacing */
+  padding: 1rem; /* inner spacing */
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center elements horizontally */
-  gap: 1rem; /* Space between items */
-  overflow-y: auto; /* Will give it a scroll bar is needed*/
+  flex-direction: column; /* stack items vertically */
+  align-items: center; /* center elements horizontally */
+  gap: 1rem; /* space between items */
   font-size: var(--body-size);
   color: var(--text-color);
 }

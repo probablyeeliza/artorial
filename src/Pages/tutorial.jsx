@@ -7,7 +7,6 @@ import "../Css/Tutorial.css"
 import "../App.css";
 
 export function Tutorial() {
-    /* declares react state using the useState hook, holds current text and drives filtering*/
     const [search, setSearch] = useState("");
 
     const filteredData = tutorialData.filter((tutorial) => {
@@ -22,9 +21,7 @@ export function Tutorial() {
         <div className="App">
             <div className="Mobile-Screen">
                 <div className="tutorial-page">
-                    <div>
-                        <header className="App-Header">Tutorials!</header>
-                    </div>
+                    <header className="App-Header">Tutorials!</header>
                     <SearchBar search={search} setSearch={setSearch} />
                     <div className="tutorial-list">
                      {filteredData.length === 0 ? (

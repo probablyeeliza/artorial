@@ -34,5 +34,18 @@
       "Next you want to download the brush into your files and then go open it. Once you open it, it should automatically download into your procreate!",
       "Enjoy experimenting with your new brush!"
     ]
+  },
+  {
+    "id": 4,
+    "category" : "Sketching",
+    "title" : "How to practise drawing",
+    "desc": "Starting to draw can be scary and you can easily try to become a perfectionist who pays too much attention to details that don't matter. Here is some guidance that will help you as an artist in the long run",
+    "tips": [
+      "Before drawing, relax, get comfy (make sure you have good posture, your back and neck will thank you later)",
+      "Prepare your tools, whether this is an array of pencils, some paints or just a piece of charcoal!",
+      "Grab an object! Still life drawing is a very good way to observe form and light. ",
+      "Start with some experimental drawings. Try only looking at your object! Or try only looking at your object once. Do these in small intervals first e.g. 10-30 seconds and then move on to 1-5 minutes.",
+      "These help to teach you essential skills that will help you are you mature as an artist!"
+    ]
   }
 ]
