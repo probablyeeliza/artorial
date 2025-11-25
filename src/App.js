@@ -13,6 +13,13 @@ import { Layout } from './Layout';
 import { Accessibility } from "./Pages/accessibility";
 
 function App() {
+  useEffect(() => {
+    const stored = localStorage.getItem("dark");
+    const darkMode = stored ? JSON.parse(stored) : false;
+    const theme = darkMode ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", theme);
+  }, []);
+  
   const { fontSize } = useContext(FontSizeContext);
    useEffect(() => {
     document.documentElement.style.setProperty('--user-font-size', fontSize + "px");
