@@ -3,6 +3,7 @@ import "../Css/Accessibility.css"
 import { Link } from "react-router-dom";
 import FontControl from "../Components/FontControl"
 import { LightDarkModeToggle } from "../Components/LightDarkModeToggle";
+import { IconSizeControl } from "../Components/IconSizeControl"
 
 
 
@@ -23,6 +24,10 @@ export function Accessibility() {
                 <div className="content">
                     <h2>Theme</h2>
                     <LightDarkModeToggle/>
+                </div>
+                <div className="content">
+                    <h2>Icon Size</h2>
+                    <IconSizeControl/>
                 </div>
             </div>
          </div>

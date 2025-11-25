@@ -1,19 +1,20 @@
-.font-controls-container {
+.font-controls-container, .icon-controls-container  {
   display: flex;
   flex-direction: column;
-  align-items: center; /* center everything horizontally */
+  align-items: center; /* center horizontally */
   gap: 16px; /* space between rows and reset button */
-  width: fit-content;
+  width: 100%;;
 }
 
-.font-controls{
+.font-controls, .icon-controls{
   display: flex;
-  flex-direction: row;
   gap: 16px; /* space between title group and body group */
   background: var(--header-bg);
   padding: 16px;
   border-radius: 12px;
-  width: fit-content;
+  max-width: 375px;
+  justify-content: center; /* center items inside the row */
+  align-items: center; /* vertical alignment */
 }
 
 .font-controls p {
@@ -22,9 +23,10 @@
   
 }
 
-.font-controls-row {
+.font-controls-row, .icon-controls-row {
   display: flex;
   gap: 40px; /* space between Title and Body sections */
+  justify-content: center; /* center horizontally */
 }
 
 .button-row {
@@ -42,6 +44,7 @@
 
 .content h2{
   color:var(--text-color);
+  text-align: center;
 }
 
 .theme-container{

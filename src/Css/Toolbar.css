@@ -15,7 +15,9 @@
 }
 
 .toolbar-icon {
-  color: #1A1A1A;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  color:black;
   transition: color 0.2s ease;
 }
 

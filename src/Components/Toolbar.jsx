@@ -16,15 +16,15 @@ export function ToolBar(){
   };
     return(
         <nav className="toolbar">
-            <Link to="/"> <IoMdPerson size={40} className={selected === "profile" ? "toolbar-icon selected" : "toolbar-icon"}
+            <Link to="/"> <IoMdPerson className={selected === "profile" ? "toolbar-icon selected" : "toolbar-icon"}
                 onClick={() => handleClick("profile")}/> </Link>
-            <Link to="/challenge"> <LuSwords size={40} className={selected === "challenge" ? "toolbar-icon selected" : "toolbar-icon"}
+            <Link to="/challenge"> <LuSwords  className={selected === "challenge" ? "toolbar-icon selected" : "toolbar-icon"}
                 onClick={() => handleClick("challenge")}/></Link>
-            <Link to="/community"> <IoPeople size={40} className={selected === "community" ? "toolbar-icon selected" : "toolbar-icon"}
+            <Link to="/community"> <IoPeople  className={selected === "community" ? "toolbar-icon selected" : "toolbar-icon"}
                 onClick={() => handleClick("community")}/></Link>
-            <Link to="/tutorial"> <TbWriting size={40} className={selected === "tutorial" ? "toolbar-icon selected" : "toolbar-icon"}
+            <Link to="/tutorial"> <TbWriting className={selected === "tutorial" ? "toolbar-icon selected" : "toolbar-icon"}
                 onClick={() => handleClick("tutorial")}/></Link>
-            <Link to="/settings"> <IoMdSettings size={40} className={selected === "settings" ? "toolbar-icon selected" : "toolbar-icon"}
+            <Link to="/settings"> <IoMdSettings  className={selected === "settings" ? "toolbar-icon selected" : "toolbar-icon"}
                 onClick={() => handleClick("settings")}/></Link>
             
         </nav>
