@@ -15,11 +15,11 @@ export function IconSizeProvider({ children }) {
     localStorage.setItem("iconSize", JSON.stringify(iconSize));
   }, [iconSize]);
 
-  // Limits
+  // Upper and lower icon limits
   const ICON_MIN = 30;
   const ICON_MAX = 50;
 
-  // Functions to increase/decrease/reset
+  // Functions to increase, decrease or reset
   const increaseIcon = () => setIconSize(prev => Math.min(ICON_MAX, prev + 4));
   const decreaseIcon = () => setIconSize(prev => Math.max(ICON_MIN, prev - 4));
   const resetIcon = () => setIconSize(40);

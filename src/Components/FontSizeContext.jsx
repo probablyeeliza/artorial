@@ -3,7 +3,7 @@ import { createContext, useState, useEffect  } from "react";
 export const FontSizeContext = createContext();
 
 export function FontSizeProvider({ children }) {
-   // Read from localStorage first, fallback to defaults
+   // Read from localStorage first, or set to default
   const [titleSize, setTitleSize] = useState(() => {
     const stored = localStorage.getItem("titleSize");
     return stored ? JSON.parse(stored) : 24;
@@ -14,16 +14,15 @@ export function FontSizeProvider({ children }) {
     return stored ? JSON.parse(stored) : 16;
   });
 
-  // Apply font sizes and save to localStorage
+  // Apply font sizes and save preference to localStorage
   useEffect(() => {
     document.documentElement.style.setProperty("--title-size", `${titleSize}px`);
     document.documentElement.style.setProperty("--body-size", `${bodySize}px`);
-
     localStorage.setItem("titleSize", JSON.stringify(titleSize));
     localStorage.setItem("bodySize", JSON.stringify(bodySize));
   }, [titleSize, bodySize]);
 
-  // Limits
+  // Upper and lower font size limits
   const TITLE_MIN = 18;
   const TITLE_MAX = 40;
   const BODY_MIN = 12;

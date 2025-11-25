@@ -13,6 +13,5 @@ function TutorialCard({category, title, id}) {
             <div className="tutorial-arrow">→</div>
         </div>
     );
-
 };
 export default TutorialCard;

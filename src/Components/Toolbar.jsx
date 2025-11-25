@@ -7,13 +7,16 @@ import { IoPeople } from "react-icons/io5";
 import { TbWriting } from "react-icons/tb";
 import { IoMdSettings } from "react-icons/io";
 
-// remember to remove the home 
 export function ToolBar(){
-     const [selected, setSelected] = useState(null); // initially nothing selected
+    // Makes it so nothing in selected initially
+    const [selected, setSelected] = useState(null); 
 
-  const handleClick = (name) => {
-      setSelected(name); // select
-  };
+    const handleClick = (name) => {
+        setSelected(name);
+    };
+
+    // Links to all the different pages and uses the icons from the react icon library
+    //Also changes colour when selected
     return(
         <nav className="toolbar">
             <Link to="/"> <IoMdPerson className={selected === "profile" ? "toolbar-icon selected" : "toolbar-icon"}

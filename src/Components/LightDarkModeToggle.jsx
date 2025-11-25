@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 
 export function LightDarkModeToggle() {
   const [darkMode, setDarkMode] = useState(() => {
-    // Read from localStorage BEFORE React renders
-    const stored = localStorage.getItem("dark");
-    // default to light mode
-    return stored ? JSON.parse(stored) : false;
+  const stored = localStorage.getItem("dark");
+  // Default to light mode
+  return stored ? JSON.parse(stored) : false;
   });
 
   // Apply theme whenever darkMode changes
@@ -14,6 +13,7 @@ export function LightDarkModeToggle() {
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("dark", JSON.stringify(darkMode));
   }, [darkMode]);
+  
 //The button
   return (
     <div className="theme-container">

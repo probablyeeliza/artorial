@@ -19,7 +19,7 @@ export function ChallengePosts() {
                 <div className="post-content">
                 <h2>Posts for "{challenge ? challenge.title : `Challenge ${id}`}"</h2>
                 {filteredPosts.length === 0 ? (
-                    <p>No posts yet for this challenge.</p>
+                    <h3 className="no-results">No posts yet for this challenge.</h3>
                 ) : (
                     filteredPosts.map(post => (
                         <div key={post.postId} className="post-card">

@@ -30,3 +30,10 @@
 .post-content h2{
   text-decoration: underline;
 }
+
+.no-results{
+  border: 2px solid var(--border-color); /* colour */
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  background-color: var(--header-bg);
+}

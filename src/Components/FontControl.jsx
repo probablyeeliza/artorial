@@ -25,7 +25,7 @@ export function FontControl() {
         </div>
       </div> 
         
-        {/* Default*/}
+        {/* Default */}
         <button className="button" onClick={resetFontSizes}>
         Reset to Default
         </button>
